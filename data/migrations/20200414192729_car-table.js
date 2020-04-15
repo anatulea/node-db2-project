@@ -12,7 +12,7 @@ exports.up = function(knex) {
         tbl.integer('mileage')
             .notNullable();
         tbl.string('transmission_type', 128);
-        tbl.strng('title_status', 128);
+        tbl.string('title_status', 128);
         tbl.integer('year');
     });
 };
